@@ -1,5 +1,5 @@
 const fortunes = ["You will find great fortune today!", "You should try something new today", "I wouldn't try anything new today...", "If you state your needs, they will appear to you!", "Go all in on pocket aces today.", "Probably shouldn't go swimming today...", "Should definitely not be late to work today."];
-let randomNumber = Math.floor(Math.random()*7)
+let randomNumber = Math.floor(Math.random()*8)
 const getNumber = (num) => {
     switch (num) {
         case 1:
